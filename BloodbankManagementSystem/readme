@@ -1,0 +1,145 @@
+To setup this file create a database in phpmyadmin
+Create 4 tables in the database created 
+    admin
+    signupusers
+    donorregistrartion
+    requests
+
+create a tables 'admin' for admin login
+
+table structure: id, email, pass
+
+Name: id
+Type: int
+Null: No
+set as primary key
+
+Name: email
+Type: VARCHAR
+Null: yes
+
+Name: pass
+Type: VARCHAR
+Null: yes
+
+
+create a table 'signupusers' for user signup and login
+
+table structure: id, firstn, lastn, email, password1
+
+Name: id
+Type: int
+Null: No
+set as primary key
+
+Name: firstn
+Type: VARCHAR
+Null: yes
+
+Name: lastn
+Type: VARCHAR
+Null: yes
+
+Name: email
+Type: VARCHAR
+Null: yes
+
+Name: password1
+Type: VARCHAR
+Null: yes
+
+
+create a table 'requests' for the blood donation requests for users
+
+table structure: id, fname, lname, age, bgroup, phnumber, email_id, status, gender 
+
+Name: id
+Type: int
+Null: No
+set as primary key
+
+Name: fname
+Type: VARCHAR
+Null: yes
+
+Name: lname
+Type: VARCHAR
+Null: yes
+
+Name: age
+Type: VARCHAR
+Null: yes
+
+Name: bgroup
+Type: VARCHAR
+Null: yes
+
+Name: phnumber
+Type: VARCHAR
+Null: yes
+
+Name: email_id
+Type: VARCHAR
+Null: yes
+
+Name: status
+Type: VARCHAR
+Null: yes
+
+Name: gender
+Type: VARCHAR
+Null: yes
+
+
+create a table 'donorregistrartion' for the blood donation donors for users
+
+table structure: id, fname, lname, gname, uaddress, age, bgroup, phnumber, email_id, gender , city, pincode
+
+Name: id
+Type: int
+Null: No
+set as primary key
+
+Name: fname
+Type: VARCHAR
+Null: yes
+
+Name: lname
+Type: VARCHAR
+Null: yes
+
+Name: gname
+Type: VARCHAR
+Null: yes
+
+Name: uaddress
+Type: VARCHAR
+Null: yes
+
+Name: age
+Type: VARCHAR
+Null: yes
+
+Name: bgroup
+Type: VARCHAR
+Null: yes
+
+Name: phnumber
+Type: VARCHAR
+Null: yes
+
+Name: email_id
+Type: VARCHAR
+Null: yes
+
+Name: gender
+Type: VARCHAR
+Null: yes
+
+Name: city
+Type: VARCHAR
+Null: yes
+
+Name: pincode
+Type: VARCHAR
+Null: yes
